@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>hi</h1>
+    <script>
+ 
+     mystring="Welcom to my world";
+    i=0
+setInterval(() => {
+    document.write(`${mystring[i]}`)
+    i++;
+    if(i==mystring.length){
+   clearInterval(1000)
+   window.close();
+    }
+    
+}, 900);
+ 
+    </script>
+
+</body>
+</html>

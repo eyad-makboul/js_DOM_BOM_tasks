@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my windo</title>
+</head>
+<body>
+ <script>
+    params=new URLSearchParams(window.location.search);
+    name_show=params.get("name")
+    Pass=params.get("pass")
+    window.document.fgColor="red";
+    if (name_show=="ali"&& Pass=="123"){
+        document.write(`<h1 >Welcom ya ${name_show} <h1/>`)
+    }
+    else{document.write(`Error`)}
+ </script>
+    
+</body>
+</html>

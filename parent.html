@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My parent windwo</title>
+    <style>
+        section{
+            background-color: rgb(149, 138, 138);
+            text-align: center;
+            padding: 40px;
+        }
+        h1{
+            color: rgb(71, 32, 32);
+        }
+        form{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 20px;
+        }
+        input{
+            width: 600px;
+            height: 40px;
+
+        }
+        #submet{
+            margin-bottom: 70px;
+        }
+        hr{
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h1>Hi enter your information</h1>
+        <form class="myform">
+            <input id="name" type="text" placeholder="please enter your name">
+            <input id="pass" type="password" placeholder="Password">
+            <input type="button" value="submint" onclick="open_new_wind()">
+            <input type="button" value="open my world" onclick="open_world()">
+        </form>
+        
+        <script src="mywindo.js"></script>
+    </section>
+</body>
+</html>
